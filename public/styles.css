@@ -21,7 +21,7 @@ body {
 }
 
 header {
-  background: var(--primary);
+  background: var(--accent);
   color: var(--textOnPrimary);
   padding: 2rem 0 1rem 0;
   text-align: center;
