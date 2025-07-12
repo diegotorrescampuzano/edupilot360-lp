@@ -1,3 +1,9 @@
+<!-- Archivo: public/index.html -->
+<!--
+  Landing page EduPilot360 Demo
+  Ajuste: Header con fondo claro (neutral) y textos en colores contrastantes según la paleta oficial.
+  Comentarios y estructura siguiendo buenas prácticas de accesibilidad, branding y responsividad.
+-->
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -9,10 +15,13 @@
   <link rel="icon" href="images/logo-edupilot360.svg" type="image/svg+xml">
 </head>
 <body>
-  <header>
-    <img src="images/logo-aedupilot360_v2_white.webp" alt="Logo EduPilot360" class="logo" />
-    <h1>EduPilot360</h1>
-    <p>El ecosistema inteligente para la gestión académica en colegios colombianos</p>
+  <!-- Header con fondo claro y textos contrastantes -->
+  <header class="header-landing">
+    <div class="logo-container">
+      <img src="images/logo-edupilot360.png" alt="Logo EduPilot360" class="logo" />
+    </div>
+    <h1 class="header-title">EduPilot360</h1>
+    <p class="header-subtitle">El ecosistema inteligente para la gestión académica en colegios colombianos</p>
     <button class="cta-btn" onclick="document.getElementById('form-section').scrollIntoView({behavior:'smooth'})">
       Solicita una demo
     </button>
