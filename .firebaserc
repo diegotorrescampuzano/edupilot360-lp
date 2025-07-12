@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "attendify-app-kirpalamar"
+  },
+  "targets": {
+    "attendify-app-kirpalamar": {
+      "hosting": {
+        "landing-page": [
+          "edupilot360-demo"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
