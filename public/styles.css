@@ -21,7 +21,7 @@ body {
 }
 
 header {
-  background: var(--accent);
+  background: var(--neutral);
   color: var(--secondary);
   padding: 2rem 0 1rem 0;
   text-align: center;
@@ -39,6 +39,7 @@ h1 {
 
 h2, h3 {
   color: var(--secondary);
+    text-align: center;
 }
 
 .cta-btn {
